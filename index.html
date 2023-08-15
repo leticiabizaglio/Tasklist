@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -12,19 +12,28 @@
 
 <body>
     <div id="principal">
-        <form>
-            <input id="tarefa" placeholder="Adicione uma nova tarefa">
-            <button id="botao" onclick="add()"><i id="ico" class="fa-solid fa-plus"></i></button>
-            <div id="text">
-                <span>TESTE</span>
+        <div id="form">
+            <div id="b1">
+                <input id="tarefa" placeholder="Adicione uma nova tarefa">
+                <button id="botao" onclick="add()"><i id="ico" class="fa-solid fa-plus"></i></button>
+            </div>
+
+            <div id="segundaria">
+
+                <div id="form2">
+                    <div id="info">
+                        <span id="text">Isso é só um teste!</span>
+                    </div>
+                    <div id="botoes">
+                        <button type="button" id="ok"><i class="fa-solid fa-check"></i></button>
+                        <button type="button" id="edit"><i class="fa-regular fa-pen-to-square"></i></button>
+                        <button type="button" id="delete"><i class="fa-solid fa-trash"></i></button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="botoes"></div>
-        <button id="check" onclick="check()"><i id="ico1" class="fa-solid fa-check"></i></button>
-        <button id="edit" onclick="edit()"><i id="ico2" class="fa-solid fa-pen-to-square"></i></button>
-        <button id="delete" onclick="deleta()"><i  id="ico3"class="fa-solid fa-trash"></i></button>
-        </form>
-    </div>   
+    </div>
 </body>
+
 
 </html>

@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Castoro&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Castoro', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 #principal {
     align-items: center;
     background-color: #FFF;
     width: 70%;
-    height: 50%;
+    height: 70%;
     border-radius: 8px;
     padding: 20px;
     border-radius: 8px;
@@ -18,19 +23,20 @@
 
 #tarefa {
     height: 35%;
-    background-color: #f5f5f5;
+    background-color: #e9e3e3;
     align-items: center;
     display: flex;
     flex-direction: column;
     padding: 2rem;
     color: #000000;
     border-radius: 8px;
-    width: 80%;
+    width: 40rem;
+    border: none;
 
 }
 
 body {
-    background-color: #f5f5f5;
+    background-color: #cdcaca;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -40,27 +46,96 @@ body {
     height: 100vh;
     gap: 3.5rem;
 }
-
-form {
-    align-items: center;
+#b1{
     display: flex;
+}
+#form {
+    display: flex;
+    align-items: center;
     height: 20%;
-    flex-direction: row;
+    flex-direction: column;
     gap: 0.5rem;
     background-color: #FFF;
     padding-top: 5%;
-    margin-left: 10%;
     
     
 }
 #botao{
-    height: 35%;
-    background-color: #f5f5f5;
+    background-color: #e9e3e3;
     align-items: center;
-    flex-direction: column;
-    padding: 2rem;
     color: #000000;
     border-radius: 8px;
-    width: 5%;
+    border: none;
+    margin-left: 10px;
+    height: 4rem;
+    width: 4rem;
+}
 
+#edit{
+    background-color: blue;
+    width: 50px;
+    height: 40px;
+    align-items: center;
+    border-radius: 17px;
+    border: none;
+    margin-right: 7px;
+    color: white;
+}
+#delete{
+    background-color: red;
+    width: 50px;
+    height: 40px;
+    align-items: center;
+    border-radius: 17px;
+    border: none;
+    color: white;
+}
+ #ok{
+    background-color: transparent;
+    width: 50px;
+    height: 40px;
+    align-items: center;
+    border-radius: 17px;
+    border: none;
+    margin-right: 7px;
+ }
+ #info{
+display: flex;
+flex-direction: column;
+}
+#botoes{
+    display: flex;
+    padding-top: 1rem;
+}
+#segundaria{
+    align-items: center;
+    background-color: #e9e3e3;
+    border-radius: 8px;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 1.7rem;
+    color: #000000;
+    border-radius: 8px;
+    width: 46vw;
+}
+#form2{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+    width: 80%;
+    flex-direction: row;
+}
+#text{
+    width: 10vw;
+    display: flex;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-top: 5%;
+    
 }
